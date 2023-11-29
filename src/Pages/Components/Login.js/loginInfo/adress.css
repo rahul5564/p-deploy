@@ -1,0 +1,82 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    height: 50vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+  }
+  .modal input{
+    margin: 20px;
+    padding: 10px;
+  }
+  .modal-btns{
+    padding: 10px 15px;
+    margin: 10px;
+    font-weight: bold;
+  }
+  .modal-btns:hover{
+    background-color: lightcoral;
+    color: white;
+  }
+
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .address {
+    margin: 10px 0px;
+    padding: 20px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .edit-btn{
+    cursor: pointer;
+    color: green;
+    padding: 0px 5px;
+  }
+  .remove-btn {
+    cursor: pointer;
+    color: red;
+    padding: 0px 5px;
+  }
+  /* .btn-add{} */
+  .btn-address{
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    margin-top : 2rem;
+    padding: 1rem 10rem;
+    display: flex;
+    justify-content: center;
+  }
+  .btn-address:hover{
+    background-color: lightsalmon;
+    color: white;
+  }

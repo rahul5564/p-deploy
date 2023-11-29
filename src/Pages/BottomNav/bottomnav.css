@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bottom-nav{
+    background-color: #d56062;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    padding: 4rem 0px;
+}
+.terms{
+    flex-grow: 2;
+    margin-left: 8rem;
+    font-size: 1.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.terms-b{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.links{
+    flex-grow: 0.5;
+    margin-top: 1rem;
+    padding: 2rem;
+}
+.links a{
+    font-size: 1.4rem;
+     text-decoration: none;
+    color: black;
+}
+.links a:hover{
+    color: lightcoral;
+}
+.resource{
+    font-size: 1.4rem;
+    text-decoration: none;
+   color: black;
+}
+.resource:hover{
+    color: lightcoral;
+}
+.link-head{
+    font-size: 1.5rem;
+     text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.Resources{
+    flex-grow: 1;
+    margin-top: 1rem;
+    padding: 2rem;
+}
+.Resources div{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: black;
+}

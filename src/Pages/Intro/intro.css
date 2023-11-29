@@ -1,0 +1,80 @@
+
+.Intro-main{
+    background-image: url(../Images/pexels-stefan-stefancik-919606.jpg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* width: 90vw;
+    height: 80vh; */
+    background-position: center;
+    opacity: 0.9;
+    margin-top: 3rem;
+}
+.img-content h1{
+    text-align: center;
+    font-size: 6rem;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px darkgrey;
+}
+.img-content h1:hover{
+    text-shadow: 4px 4px 4px black;
+}
+.img-content p{
+    text-align: center;
+    font-size: 2rem;
+    margin: 6rem 0px;
+    opacity: 0.8;
+}
+.btn-intro{
+    text-align: center;
+}
+.quote{
+   color: rgb(250, 250, 255); 
+   text-align: center;
+   font-size: 30px;
+   opacity: 0.8;
+}
+.btn-intro button{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+    padding: 0px 1rem;
+    cursor: pointer;
+}
+.btn-intro button:hover{
+    /* background: linear-gradient(black,grey);
+    color: lightslategray; */
+}
+.mini-Icons{
+    margin: 2rem 0px;
+    text-align: center;
+}
+/* .mini-Icons h2,p{
+    margin: 1rem;
+} */
+.category{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+.shop-watch{
+   color: rgb(250, 250, 255); 
+    text-align: center;
+    font-size: 40px;
+   opacity: 0.8;
+}
+.shop-watch b{
+    color: white;
+}
+.show-now:hover{
+    background-color: black;
+    color: white;
+}
+.mini-tag{
+    margin: 2.5rem 0px;
+    font-size: 1.5rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tag{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
