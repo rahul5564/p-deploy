@@ -33,4 +33,29 @@
   grid-template-columns: 0.3fr 1fr;
   grid-template-rows: 50px 250px;
 }
-
+@media only screen and (max-width: 767px) {
+  .card {
+    margin: 2px 1px;
+    padding: 10px 4px;
+    width: 75%;
+    justify-content: center;
+    border: 1px dotted green;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow:auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .card {
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow:auto;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .card {
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow:auto;
+  }
+}

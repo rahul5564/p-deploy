@@ -47,7 +47,6 @@ export const Sidebarcontent = () => {
                   </p>
                   <p className="watch-rating">{rating} {}<StarHalf size={15} /> </p>
                   </div>
-                  {/* <p>{year}</p> */}
                   <p className="price-discount">
                   $/{discountedPrice} <del>${price}</del> (<span className="discount">{discount} OFF</span>)
                   </p>

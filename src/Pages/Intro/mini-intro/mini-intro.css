@@ -25,3 +25,41 @@
     padding: 0.5rem;
     margin-top: 0.5rem;
 }
+
+/* Styles for small screens (phones) */
+@media only screen and (max-width: 767px) {
+    .mini-category{
+        width: 24%;
+        height: 22vh;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        overflow: hidden;
+    }
+    .round{
+        padding: 1rem;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        overflow: hidden;
+        margin-top: 0px;
+        font-size: 12px;
+    }
+  }
+  
+  /* Styles for medium screens (tablets) */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .mini-category{
+        width: 24%;
+        height: 22vh;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        overflow: hidden;
+    }
+    .round{
+        padding: 1rem;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        overflow: hidden;
+        margin-top: 0px;
+        font-size: 12px;
+    }
+  }

@@ -4,15 +4,16 @@ import "./bottomnav.css"
 export const Bottom = () => {
     return(
         <div className="botton-main">
-        <div className="bottom-nav">
-            <div className="terms">
+    <div className="bottom-nav">
+        <div className="terms">
             <p><b className="terms-b">Icarus</b> <br/>
             Adorn your spaces with an array of timepieces, occupying every corner and every nook
             </p>
             <p>Privacy Policy</p>
             <p>Terms of Use</p>
             <p>2023 Icarus</p>
-            </div>
+        </div>
+        <div id="two-col">
             <div className="links">
                 <div className="link-head">Connect</div>
                 <a href="https://github.com/rahul5564" target="_blank">GitHub</a><br/>
@@ -27,6 +28,7 @@ export const Bottom = () => {
                 <div>
                 <NavLink to="/Login" className="resource">Sign In</NavLink>
                 </div>
+            </div>
             </div>
         </div>
     </div>    

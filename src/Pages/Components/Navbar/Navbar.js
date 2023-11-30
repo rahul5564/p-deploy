@@ -5,6 +5,7 @@ import { CartContext } from "../../cartProvider.js/card";
 import { UserSquare2} from 'lucide-react';
 import { Heart } from 'lucide-react';
 import { ShoppingCart } from 'lucide-react';
+import "./navbar.css"
 // import Signup from "./Signin.js/Signin";
 
 export const Navbar = () => {

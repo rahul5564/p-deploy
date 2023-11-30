@@ -15,9 +15,9 @@ export const Intro = () => {
             <div className="Intro">
                 <div className="Intro-main">
                     <div className="img-content">
-                    <h1>ICARUS</h1>
+                    <h1 className="head-name-intro">ICARUS</h1>
                     <p>-Discover the Uncharted-</p>
-                    <span className="mini-img"></span>
+                    {/* <span className="mini-img"></span> */}
                     <div className="btn-intro">
                     <span className="quote">Grace and accuracy with each tick</span>
                     <br/>

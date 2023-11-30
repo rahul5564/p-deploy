@@ -33,11 +33,11 @@ export const Aisde = () => {
           <span className="clr-flt-btn">Clear</span>
         </span>
       </p>
-      <div className="sidebar-content">
+    <div className="sidebar-content">
       <div className="Price-Range">
       <h4>Price</h4>
         <div className="flex-gap">
-          <div className="price-range">
+          <div className="price-range numberss">
             <p>1000</p>
             <p>5000</p>
             <p>10000</p>

@@ -58,3 +58,73 @@
     text-decoration: none;
     color: black;
 }
+
+/* Styles for small screens (phones) */
+@media only screen and (max-width: 767px) {
+    .bottom-nav{
+        background-color: #d56062;
+        gap: 0rem;
+        justify-content: center;
+    }
+    .terms{
+        font-size: 10px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        justify-content: center;
+    }
+    .resource{
+        font-size: 0.6rem;
+    }
+    .Resources div{
+        font-size: 0.8rem;
+    }
+    .links a{
+        font-size: 0.6rem;
+         text-decoration: none;
+        color: black;
+    }
+    .link-head{
+        font-size: 0.8rem;
+    }
+    .terms-b{
+        font-size: 1rem;
+    }
+    #two-col{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+  }
+  
+  /* Styles for medium screens (tablets) */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Your styles for tablets go here */
+    .bottom-nav{
+        background-color: #d56062;
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .terms{
+        font-size: 10px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .resource{
+        font-size: 1rem;
+    }
+    .links a{
+        font-size: 0.6rem;
+    }
+    .terms-b{
+        font-size: 0.5rem;
+    }
+    .bottom-nav{
+        display: flex;
+        flex-direction: column;
+    }
+    #two-col{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+  }
+  

@@ -252,3 +252,75 @@
   margin: 1rem;
   font-size: 20px;
 }
+
+@media only screen and (max-width: 767px) {
+  .card {
+    margin: 2px 1px;
+    padding: 0px 4px;
+    width: 30%;
+    border: 1px dotted green;
+  }
+  .Watch {
+    width: 90%;
+    height:200px;
+    padding: 10px 0px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+  .button {
+    padding: 2px 2px;
+    margin: 1px 1px;
+    height: 10px;
+  }
+   .btn-container{
+    display: flex;
+    flex-flow: column;
+    text-overflow: ellipsis;
+  }
+  #search1::placeholder{
+    font-size: medium;
+  }
+  #search1:hover{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+  }
+  .button {
+    border: none;
+    background-color: white;
+  }
+  .parent-btn{
+    border: none;
+  }
+}
+
+/* Styles for medium screens (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .card {
+    margin: 4px 1px;
+    padding: 0px 6px;
+    width: 20%;
+  }
+  .watch-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .button {
+    padding: 4px 4px;
+    margin: 2px 2px;
+    height: 15px;
+  }
+  .btn-container{
+    display: flex;
+    flex-flow: column;
+    text-overflow: ellipsis;
+  }
+  .button {
+    border: none;
+  }
+  .parent-btn{
+    border: none;
+  }
+}
